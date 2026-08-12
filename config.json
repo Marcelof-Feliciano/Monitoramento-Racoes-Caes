@@ -7,13 +7,22 @@
         { "site": "petz",    "url": "https://www.petz.com.br/produto/racao-royal-canin-para-caes-adultos-da-raca-golden-retriever-10-1kg-194370" },
         { "site": "petlove", "url": "https://www.petlove.com.br/racao-royal-canin-para-caes-adultos-da-raca-golden-retriever/p?sku=31027540335" }
       ]
+    },
+    {
+      "produto_id": "premier_hipoalergenico_medio_grande_10kg",
+      "nome": "Premier Nutricao Clinica Hipoalergenico Medio e Grande Porte 10,1kg",
+      "fontes": [
+        { "site": "petz",    "url": "https://www.petz.com.br/produto/racao-premier-nutricao-clinica-hipoalergenico-para-caes-adultos-de-medio-e-grande-porte-10,1kg-156514" },
+        { "site": "petlove", "url": "https://www.petlove.com.br/racao-premier-nutricao-clinica-hipoalergenico-para-caes-medio-e-grande-porte/p?sku=2536359" },
+        { "site": "cobasi",  "url": "https://www.cobasi.com.br/racao-premier-nutricao-clinica-hipoalergenico-caes-racas-medio-e-grande-3946109/p?idsku=946109" }
+      ]
     }
   ],
 
   "_comentarios": {
     "como_adicionar_produto": "Copie um bloco dentro de 'produtos', troque produto_id, nome e as URLs.",
     "produto_em_menos_sites": "Se um produto so existe em 2 sites, deixe so 2 fontes. E normal.",
-    "cobasi": "Quando a Cobasi passar a vender um item, adicione uma fonte com site='cobasi' e a URL do produto (aquela que termina em -NUMERO).",
-    "segunda_racao": "Quando definir a 2a racao, adicione outro bloco de produto aqui."
+    "cobasi": "URL da Cobasi termina em -NUMERO/p... ; o codigo usa esse NUMERO (productId).",
+    "segunda_racao": "Cada bloco = um produto. A virgula separa os blocos; o ultimo NAO leva virgula."
   }
 }
