@@ -1,0 +1,19 @@
+{
+  "produtos": [
+    {
+      "produto_id": "royal_golden_retriever_adulto_10kg",
+      "nome": "Royal Canin Golden Retriever Adulto 10,1kg",
+      "fontes": [
+        { "site": "petz",    "url": "https://www.petz.com.br/produto/racao-royal-canin-para-caes-adultos-da-raca-golden-retriever-10-1kg-194370" },
+        { "site": "petlove", "url": "https://www.petlove.com.br/racao-royal-canin-para-caes-adultos-da-raca-golden-retriever/p?sku=31027540335" }
+      ]
+    }
+  ],
+
+  "_comentarios": {
+    "como_adicionar_produto": "Copie um bloco dentro de 'produtos', troque produto_id, nome e as URLs.",
+    "produto_em_menos_sites": "Se um produto so existe em 2 sites, deixe so 2 fontes. E normal.",
+    "cobasi": "Quando a Cobasi passar a vender um item, adicione uma fonte com site='cobasi' e a URL do produto (aquela que termina em -NUMERO).",
+    "segunda_racao": "Quando definir a 2a racao, adicione outro bloco de produto aqui."
+  }
+}
