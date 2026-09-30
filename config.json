@@ -5,7 +5,8 @@
       "nome": "Royal Canin Golden Retriever Adulto 10,1kg",
       "fontes": [
         { "site": "petz",    "url": "https://www.petz.com.br/produto/racao-royal-canin-para-caes-adultos-da-raca-golden-retriever-10-1kg-194370" },
-        { "site": "petlove", "url": "https://www.petlove.com.br/racao-royal-canin-para-caes-adultos-da-raca-golden-retriever/p?sku=31027540335" }
+        { "site": "petlove", "url": "https://www.petlove.com.br/racao-royal-canin-para-caes-adultos-da-raca-golden-retriever/p?sku=31027540335" },
+        { "site": "cobasi",  "url": "https://www.cobasi.com.br/racao-royal-canin-golden-retriever-caes-adultos-31204602/p?idsku=1204602" }
       ]
     },
     {
@@ -16,13 +17,21 @@
         { "site": "petlove", "url": "https://www.petlove.com.br/racao-premier-nutricao-clinica-hipoalergenico-para-caes-medio-e-grande-porte/p?sku=2536359" },
         { "site": "cobasi",  "url": "https://www.cobasi.com.br/racao-premier-nutricao-clinica-hipoalergenico-caes-racas-medio-e-grande-3946109/p?idsku=946109" }
       ]
+    },
+    {
+      "produto_id": "nexgard_spectra_30a60kg",
+      "nome": "Antipulgas e Vermifugo NexGard Spectra para Caes de 30,1 a 60 kg",
+      "fontes": [
+        { "site": "petz",    "url": "https://www.petz.com.br/produto/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-30-1-a-60kg-166516" },
+        { "site": "petlove", "url": "https://www.petlove.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-de-30-1-a-60-kg/p?sku=2659031" },
+        { "site": "cobasi",  "url": "https://www.cobasi.com.br/antipulgas-e-carrapatos-nexgard-spectra-para-caes-30-1-a-60-kg-3992674/p?idsku=992674" }
+      ]
     }
   ],
 
   "_comentarios": {
+    "regra_virgula": "Virgula entre os itens de uma lista; NENHUMA depois do ultimo. Foi isso que quebrou.",
     "como_adicionar_produto": "Copie um bloco dentro de 'produtos', troque produto_id, nome e as URLs.",
-    "produto_em_menos_sites": "Se um produto so existe em 2 sites, deixe so 2 fontes. E normal.",
-    "cobasi": "URL da Cobasi termina em -NUMERO/p... ; o codigo usa esse NUMERO (productId).",
-    "segunda_racao": "Cada bloco = um produto. A virgula separa os blocos; o ultimo NAO leva virgula."
+    "cobasi": "URL da Cobasi termina em -NUMERO/p... ; o codigo usa esse NUMERO (productId)."
   }
 }
